@@ -108,3 +108,13 @@ Handling connection for 8080
 
 # cheers you have dasboard in browser
 username = admin 
+
+
+# change argo password 
+
+argocd account update-password
+*** Enter current password: 
+*** Enter new password: 
+*** Confirm new password: 
+Password updated
+Context 'localhost:8080' updated
