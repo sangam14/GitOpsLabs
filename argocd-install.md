@@ -75,12 +75,13 @@ argocd-repo-server-6fc4456c89-4qtzc   1/1     Running   0          90s
 argocd-server-7d57bc994b-2pwb2        1/1     Running   0          89s
 ```
 # copy password   
-
+```
 kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
+```
 CpLZekcmcDqMbmBr
 
 # open localhost 8080
-
+```
 kubectl port-forward svc/argocd-server -n argocd 8080:443
 Forwarding from 127.0.0.1:8080 -> 8080
 Forwarding from [::1]:8080 -> 8080
@@ -104,17 +105,19 @@ Handling connection for 8080
 Handling connection for 8080
 Handling connection for 8080
 Handling connection for 8080
-
+```
 
 # cheers you have dasboard in browser
+```
 username = admin 
-
+```
 
 # change argo password 
-
+```
 argocd account update-password
 *** Enter current password: 
 *** Enter new password: 
 *** Confirm new password: 
 Password updated
 Context 'localhost:8080' updated
+```
