@@ -1,5 +1,4 @@
 # GitOpsLabs
-GitOpsLabs
 
 - what is gitops?
 - Install minikube 
@@ -10,4 +9,7 @@ GitOpsLabs
 - Workflow Fundamentals 
 - Workflow Templates 
 - TerraScan ArgoCD Integration 
+
+
+Work in progress ..... 
 
