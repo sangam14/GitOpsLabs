@@ -1,4 +1,12 @@
 
+# Install argocd via brew on OSX
+
+```
+brew tap argoproj/tap
+brew install argoproj/tap/argocd
+```
+
+
 # Minikube tunnel running in another terminal
 
 ```
