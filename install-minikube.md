@@ -1,4 +1,4 @@
-I
+
 # Install Minikube On Macos 
 
 ```
@@ -59,9 +59,3 @@ kube-system   kube-scheduler-minikube            1/1     Running   0          3m
 kube-system   storage-provisioner                1/1     Running   1          3m2s
 ```
 
-# Install argocd via brew on OSX
-
-```
-brew tap argoproj/tap
-brew install argoproj/tap/argocd
-```
